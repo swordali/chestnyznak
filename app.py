@@ -211,7 +211,7 @@ def main():
 
     st.write(
         "PDF içindeki DataMatrix kodlarını okur. "
-        "ZXing parantezli format döndürse bile doğru ham GS1/FNC1 CSV üretir."
+        "ZXing parantezli format döndürse bile doğru ham GS1/FNC1 CSV üretir. www.chestnyznak.com.tr"
     )
 
     uploaded_file = st.file_uploader("DataMatrix içeren PDF yükle", type=["pdf"])
